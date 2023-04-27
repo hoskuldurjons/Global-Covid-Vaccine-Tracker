@@ -1,11 +1,11 @@
 # Global-Covid-Vaccine-Tracker
 
-In this project I worked with global covid-19 vaccine dataset from ourworldindata.org. The dataset timeline covers the end of 2020 into April 2023, the visualization is not dynmically updated for dates after the 6th of April 2023.
+The Global Vaccine Tracker Tableau visualization is an interactive tool that displays COVID-19 vaccination progress worldwide. The visualization draws data from the Our World in Data COVID-19 Vaccination Dataset and allows users to select a start and end date from January 1st, 2020 to April 8th, 2023, as well as filter by continent and/or country.
 
-The Tableau visualization showcases interesting vaccine progress information which can be filtered for specific date timelines, continents and/or countries. All of the informative fields will only show data based on the selected date and location filters at the top.
+The main question answered by this visualization is, "What share of the population has been partly or fully vaccinated?" The data reveals that 5,573,184,290 people have been partially vaccinated against COVID-19, 5,142,182,689 people are fully vaccinated, and 30.12% of the population has not been vaccinated at all.
 
-First you will see a numerical breakdown of people partly vaccinated, fully vaccinated and the share of people not vaccinated at all. Next there is a descending bar chart breaking down the numerical information by location.
+The visualization presents a horizontal bar chart displaying the vaccination status of each country in the world, with the blue part indicating the share of people who are fully vaccinated and the smaller yellow part representing the share of people who are partially vaccinated.
 
-Following those fields you will be presented with a map which you can hover over to see specific data for the countries or continents selected and finally how GDP per capita affects vaccination rates.
+Below the bar chart is an interactive world map that shows a tooltip with information on each country on mouse over. The map displays countries with less vaccination in lighter shades of blue, while countries with a higher vaccination rate are shown in darker shades of blue.
 
-Note that Gibraltar is an outlier in the dataset, the country has an estimated population of 34.003 but had administered 132.810 doses of vaccine on the 16th of December 2022.
+Finally, a dot graph displays each country as a dot, with the y-axis representing people vaccinated per hundred and the x-axis representing the country's GDP per capita. Overall, this visualization provides a comprehensive overview of COVID-19 vaccination progress around the world.
